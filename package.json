@@ -1,0 +1,20 @@
+{
+  "author": "chunghe",
+  "name": "stockticker",
+  "description": "This is a script you could use to display stock pre-market price in your tmux status line",
+  "version": "0.0.6",
+  "repository": {
+    "url": "https://github.com/chunghe/nodejs-stock-ticker"
+  },
+  "bin": {
+    "stockticker": "./bin/stockticker"
+  },
+  "dependencies": {
+    "cheerio": "0.12.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
